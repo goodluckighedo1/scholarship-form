@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Scholarship Application Form Lab</title>
+</head>
+<body>
+    <div>
+    <h1>Scholarship Application Form</h1>
+
+    <form>
+        <h4>Personal Information:</h4>
+        <div class="form-content">
+            <label for="fname">First name</label>
+        <input type="text" id="fname" name="fname" size="31">
+        </div>
+        <div class="form-content">
+            <label for="lname">Last name</label>
+        <input type="text" id="lname" name="lname" size="31">
+        </div>
+        <div class="form-content">
+        <label for="dbirth">Date of birth</label>
+        <input type="date" id="dbirth" name="dbirth">
+        </div>
+        <div class="form-content">
+        <label for="haddr">Permanent Home Address</label>
+        <input type="text" id="haddr" name="haddr">
+        </div>
+        <div class="form-content">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email">
+        </div>
+        <div class="form-content">
+        <label for="mobile">Mobile phone number</label>
+        <input type="tel" id="mobile" name="mobile">
+        </div>
+
+    <h4>University Information:</h4> 
+        <div class="form-content">
+            <label for="university">University attended</label> 
+        <input type="text" id="university" name="university">
+        </div>
+        <div class="form-content">
+            <label for="cstudy">Course of study</label>
+        <input type="text" id="cstudy" name="cstudy" size="24">
+        </div>
+        <div class="form-content">
+        <label for="ystudy">Year of study</label>
+        <input type="date" id="ystudy" name="ystudy">
+        </div>
+
+    <h4>Result Information:</h4>   
+    <div class="form-content">  
+        <label for="cgpa">CGPA (or JAMB if just recently admitted)</label>
+        <input type="text" id="cgpa" name="cgpa">
+    </div>
+
+    <h4>Uploads Section of Form</h4> 
+    <h4>The following should be uploadable (as JPEG scans or MS Word docs):</h4>
+    <div class="form-content">
+        <label for="mypassport"> Upload recent passport</label>
+    <input type="file" id="mypassport" name="mypassport">
+    </div>
+    <div class="form-content">
+    <label for="myssce"> Upload SSCE</label>
+    <input type="file" id="myssce" name="myssce">
+    </div>
+    <div class="form-content">
+    <label for="myjamb"> Upload JAMB/University Admission Letter</label>
+    <input type="file" id="myjamb" name="myjamb">
+    </div>
+    <div class="form-content">
+    <label for="myutme"> Upload UTML Result</label>
+    <input type="file" id="myutme" name="myutme">
+    </div>
+    <div class="form-content">
+    <label for="mytranscript"> Upload 1st Year Transcript showing CGPA</label>
+    <input type="file" id="mytranscript" name="mytranscript">
+    </div>
+    <div class="form-content">
+    <label for="myrecommendation">Letter of recommendation - 1</label>
+    <input type="file" id="myrecommendation" name="myrecommendation">
+    </div>
+    <div class="form-content">
+    <label for="myrecommendation2">Letter of recommendation - 2</label>
+    <input type="file" id="myrecommendation2" name="myrecommendation2">
+    </div>
+    <div class="form-content">
+    <label for="myprobity"> Upload Signed Probility Statement</label>
+    <input type="file" id="myprobity" name="myprobity">
+    </div>
+    
+    <h4>Final Section:</h4>
+    <div>
+        <input type="checkbox" id="attestation" name="attestation"> 
+    <label for="attestation">I attest that all information given are true.</label>
+    </div>
+    <div>
+        <input type="checkbox" id="condition" name="condition">
+    <label for="condition">I accept all terms and conditions.</label>
+    </div>
+    <div class="submit-application">
+        <input type="submit" value="Submit Application">
+    </div> 
+
+    </form>
+    </div>
+</body>
+</html>

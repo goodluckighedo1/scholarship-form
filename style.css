@@ -1,0 +1,52 @@
+body {
+margin: 40px auto;
+width: 960px;
+font-family: 'Red Hat Text', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color:lightblue;
+}
+
+.form-content label, .form-content input{
+    width:100%;
+
+}
+
+form{
+    width:400px;
+    margin:0 auto;
+}
+
+form .form-content{
+    margin-bottom: 10px;
+}
+
+form input{
+    padding:10px;
+}
+
+.from-content label{
+    margin-bottom: 5px;
+    display: block;
+
+}
+
+input[type="submit"] {
+    color:white;
+background-color: cornflowerblue;
+border: 1px solid cornflowerblue;
+}
+
+.submit-application{
+    margin-top:40px;
+    text-align: center;
+}
+
+@media only screen and (max-width:400px){
+    form{
+        width:100%;
+        margin:0 20px;
+}
+}
